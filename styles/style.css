@@ -1,0 +1,51 @@
+.hero {
+  background-color: var(--secondary-color);
+  padding: 160px 20px;
+  text-align: center;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(39, 33, 66);
+  font-family: var(--default-font-family);
+}
+.hero h1 {
+  font-size: 96px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 48px;
+}
+.btn-branding {
+  background-color: var(--branding-color);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn :hover {
+  background-color: var(--branding-color);
+}
+:root {
+  --branding-color: rgb(107, 98, 255);
+  --secondary-color: rgb(249, 247, 252);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
